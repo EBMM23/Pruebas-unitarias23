@@ -1,0 +1,37 @@
+
+2. Mapa Mental de CI/CD:
+Integración Continua (CI):
+
+Automatización de pruebas y compilación.
+Integración frecuente de cambios de código.
+Detección temprana de errores.
+Entrega Continua (CD):
+
+Automatización del despliegue de software.
+Implementación rápida y confiable de nuevas características y correcciones.
+Entregas regulares y predecibles.
+
+Automatización de construcción, pruebas y despliegue de software:
+
+Uso de pipelines de CI/CD para automatizar todo el proceso.
+Ejecución de pruebas automáticas antes del despliegue.
+Despliegue automático en entornos de prueba y producción.
+
+Integración en el flujo de trabajo de desarrollo:
+
+Integración de herramientas de CI/CD en repositorios de código y sistemas de gestión de proyectos.
+Ejecución automática de pipelines de CI/CD después de cada confirmación de código.
+
+3. Mapa Mental de Herramientas:
+
+Herramientas populares de CI/CD:
+
+Azure DevOps.
+GitHub Actions.
+GitLab CI/CD.
+
+Integración en plataformas específicas y automatización de procesos:
+
+Azure DevOps: Integración con Azure Cloud y herramientas de gestión de proyectos.
+GitHub Actions: Integración nativa con repositorios de GitHub y amplia personalización a través de workflows YAML.
+GitLab CI/CD: Integración con GitLab y Docker para un ciclo de vida completo de desarrollo y despliegue.
