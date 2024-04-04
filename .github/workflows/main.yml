@@ -1,0 +1,25 @@
+name: Prueba Unitaria
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v2
+      
+    - name: Configurar .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.x' # Asegúrate de especificar la versión correcta de .NET Core
+
+    - name: Restaurar dependencias
+      run: dotnet restore
+
+    - name: Ejecutar prueba unitaria
+      run: dotnet test
